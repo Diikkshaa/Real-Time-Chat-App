@@ -1,4 +1,4 @@
-const socket = io('https://chat-app-backend-og9t.onrender.com');
+const socket = io('https://chat-app-backend-og9t.onrender.com')
 let name;
 let textarea = document.querySelector('#textarea')
 let messageArea = document.querySelector('.message__area')
