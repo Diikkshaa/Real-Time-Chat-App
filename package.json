@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon server"
+    "dev": "nodemon server",
+    "render-postbuild": "npm install && npm run build --prefix client"
   },
   "keywords": [],
   "author": "",
